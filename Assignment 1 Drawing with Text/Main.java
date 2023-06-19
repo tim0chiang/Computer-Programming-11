@@ -1,21 +1,25 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println(" ____  ____  _      ____  _     _____  _____ ____    ____  ____  ____  _____ ____  ____  _      _      _  _      _____   _  _            _     _     _     ");
-        System.out.println("/   _\\/  _ \\/ \\__/|/  __\\/ \\ /\\/__ __\\/  __//  __\\  /  __\\/  __\\/  _ \\/  __//  __\\/  _ \\/ \\__/|/ \\__/|/ \\/ \\  /|/  __/  / \\/ \\          / \\ |\\/ \\   / \\  /|");
-        System.out.println("|  /  | / \\|| |\\/|||  \\/|| | ||  / \\  |  \\  |  \\/|  |  \\/||  \\/|| / \\|| |  _|  \\/|| / \\|| |\\/||| |\\/||| || |\\ ||| |  _  | || |  _____   | | //| |   | |\\ ||");
-        System.out.println("|  \\__| \\_/|| |  |||  __/| \\_/|  | |  |  /_ |    /  |  __/|    /| \\_/|| |_//|    /| |-||| |  ||| |  ||| || | \\||| |_//  | || |  \\____\\  | \\// | |_/\\| | \\||");
-        System.out.println("\\____/\\____/\\_/  \\|\\_/   \\____/  \\_/  \\____\\\\_/\\_\\  \\_/   \\_/\\_\\\\____/\\____\\\\_/\\_\\\\_/ \\|\\_/  \\|\\_/  \\|\\_/\\_/  \\|\\____\\  \\_/\\_/          \\__/  \\____/\\_/  \\|");
-        System.out.println("                                                                                                                                                           ");
-        System.out.println(" _____  _  _      ____  _____  _    ___  _   ____  _     _  ____  _      _____                                                                             ");
-        System.out.println("/__ __\\/ \\/ \\__/|/  _ \\/__ __\\/ \\ /|\\  \\//  /   _\\/ \\ /|/ \\/  _ \\/ \\  /|/  __/                                                                             ");
-        System.out.println("  / \\  | || |\\/||| / \\|  / \\  | |_|| \\  /   |  /  | |_||| || / \\|| |\\ ||| |  _                                                                             ");
-        System.out.println("  | |  | || |  ||| \\_/|  | |  | | || / /    |  \\__| | ||| || |-||| | \\||| |_//                                                                             ");
-        System.out.println("  \\_/  \\_/\\_/  \\|\\____/  \\_/  \\_/ \\|/_/     \\____/\\_/ \\|\\_/\\_/ \\|\\_/  \\|\\____\\                                                                             ");
-        System.out.println("                                                                                                                                                           ");
-        System.out.println(" ____  ____        ____     _        ____  ____  ____ _____                                                                                                ");
-        System.out.println("/  _ \\/__  \\      /  _ \\ __/ \\      /_   \\/  _ \\/_   \\\\__  \\                                                                                               ");
-        System.out.println("| / \\||\\/  |_____ | / \\|/__  |_____  /   /| / \\| /   /  /  |                                                                                               ");
-        System.out.println("| \\_/|\\__  |\\____\\| \\_/||\\/  |\\____\\/   /_| \\_/|/   /_ _\\  |                                                                                               ");
-        System.out.println("\\____/   \\_/      \\____/\\____/      \\____/\\____/\\____//____/                                                                                               ");
+        System.out.println("\t\t   /\\");
+        System.out.println("\t\t  /  \\");
+        System.out.println("\t\t /    \\");
+        System.out.println("\t\t+------+");
+        System.out.println("\t\t|      |");
+        System.out.println("\t\t|  /\\  |");
+        System.out.println("\t\t| |  | |");
+        System.out.println("\t\t| |  | |");
+        System.out.println("\t\t| |  | |");
+        System.out.println("\t\t|  \\/  |");
+        System.out.println("\t\t|      |");
+        System.out.println("\t\t+------+");
+        System.out.println("\t\t|  /\\  |");
+        System.out.println("\t\t| /  \\ |");
+        System.out.println("\t\t|+----+|");
+        System.out.println("\t\t|      |");
+        System.out.println("\t\t|+----+|");
+        System.out.println("\t\t|      |");
+        System.out.println("Timothy Chiang");
+        System.out.println("Computer Programming 11 - VLN");
+        System.out.println("18-06-2023");
     }
 }
