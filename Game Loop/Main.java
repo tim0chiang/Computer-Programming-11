@@ -71,7 +71,7 @@ public class Main{
             // Deciding if the computer beat the user
             else if (Objects.equals(user_choice, "r") && Objects.equals(computer_choice, "p") || Objects.equals(user_choice, "p") && Objects.equals(computer_choice, "s") || Objects.equals(user_choice, "s") && Objects.equals(computer_choice, "r")) {
                 System.out.println("You Lose!");
-                // Adding a socer to the computer
+                // Adding a score to the computer
                 computer_score += 1;
                 if (Objects.equals(user_choice, "r")) {
                     System.out.println("Computer Choice: Paper \t Player Choice: Rock");
