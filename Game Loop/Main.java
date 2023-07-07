@@ -18,7 +18,7 @@ public class Main{
 
         while (game) {
             // Displaying the score
-            System.out.println("Computer score is " + computer_score + "\nPlayer score is " + player_score);
+            System.out.println("Computer score is " + computer_score + "\t\t\tPlayer score is " + player_score);
 
             // getting a random number by importing random
             float random_num = (float) (Math.random()*10);
