@@ -1,4 +1,7 @@
 import java.util.Scanner;
+
+import javax.swing.SortOrder;
+
 import java.util.Objects;
 
 public class Main{
@@ -14,6 +17,9 @@ public class Main{
         Scanner scan = new Scanner(System.in);
 
         while (game) {
+            // Displaying the score
+            System.out.println("Computer score is " + computer_score + "\nPlayer score is " + player_score);
+
             // getting a random number by importing random
             float random_num = (float) (Math.random()*10);
             String computer_choice;
@@ -50,6 +56,8 @@ public class Main{
             // Deciding if the user beat the computer
             else if (Objects.equals(user_choice, "r") && Objects.equals(computer_choice, "s") || Objects.equals(user_choice, "p") && Objects.equals(computer_choice, "r") || Objects.equals(user_choice, "s") && Objects.equals(computer_choice, "p")) {
                 System.out.println("You Win!");
+                // Adding a score to the player
+                player_score += 1;
                 if (Objects.equals(user_choice, "r")) {
                     System.out.println("Computer Choice: scissor \t Player Choice: Rock");
                 }
@@ -63,6 +71,8 @@ public class Main{
             // Deciding if the computer beat the user
             else if (Objects.equals(user_choice, "r") && Objects.equals(computer_choice, "p") || Objects.equals(user_choice, "p") && Objects.equals(computer_choice, "s") || Objects.equals(user_choice, "s") && Objects.equals(computer_choice, "r")) {
                 System.out.println("You Lose!");
+                // Adding a socer to the computer
+                computer_score += 1;
                 if (Objects.equals(user_choice, "r")) {
                     System.out.println("Computer Choice: Paper \t Player Choice: Rock");
                 }
@@ -81,6 +91,7 @@ public class Main{
             else {
                 System.out.println("Invalid selection please play again.");
             }
+            System.out.println("\n ************************************************************ \n");
         }
     }
 }
