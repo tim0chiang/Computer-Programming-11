@@ -85,6 +85,7 @@ public class Main{
             }
             // This turns the game off when user types "q"
             else if (Objects.equals(user_choice, "q")) {
+                System.out.println("Thank you for playing!!!");
                 game = false;
             }
             // Deciding if the user typed an invalid choice
