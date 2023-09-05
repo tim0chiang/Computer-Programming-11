@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Objects;
 
 public class School {
     ArrayList<Teacher> teachers;
@@ -18,24 +19,35 @@ public class School {
     public void add_teacher(Teacher teacher) {
         teachers.add(teacher);
     }
-    public void del_teacher(Teacher teacher) {
-        teachers.remove(teacher);
-    }
-    public void show_teachers() {
-        for (Teacher teacher : teachers) {
-            System.out.println(teacher);
+    public void del_teacher(String firname) {
+        for (int y=0; y<teachers.size(); y++) {
+            if (Objects.equals(teachers.get(y).getFirstName(), firname)) {
+                teachers.remove(y);
+            }
         }
     }
-    // Add, delete, and show student
+    // Print all the teachers in the school with the subject that they are teaching
+    public void show_teachers() {
+        for (Teacher teacher : teachers) {
+            System.out.println(teacher.getFirstName() + " " + teacher.getLastName() + ", " + teacher.getSubject());
+        }
+    }
+    // Add, delete(Delete by getting first name of the student and finding that student and deleting them), and show student
     public void add_student(Student student) {
         students.add(student);
     }
-    public void del_student(Student student) {
-        students.remove(student);
+    public void del_student(String firname) {
+        for (int y=0; y<students.size(); y++) {
+            if (Objects.equals(students.get(y).getFirstName(), firname)) {
+                students.remove(y);
+            }
+        }
     }
+
+    // Print all the students in the school
     public void show_student() {
         for (Student student : students) {
-            System.out.println(student);
+            System.out.println(student.getFirstName() + " " + student.getLastName());
         }
     }
 

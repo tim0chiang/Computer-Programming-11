@@ -1,4 +1,4 @@
-public class Main {
+public class main {
     public static void main(String[] args) {
         // A school called VLN located at Sesame is created and it is in district 1
         School school = new School(1, "VLN", "Sesame");
@@ -21,7 +21,24 @@ public class Main {
         school.add_student(new Student("Mary", "Watson", 9));
 
         // Display the teacher list and student list
+        System.out.println("These are the teachers: ");
         school.show_teachers();
+        System.out.println("\nThese are the students: ");
         school.show_student();
+
+        System.out.println("------------------------------------------");
+
+        // Remove 2 students from the school by first name
+        school.del_student("Lucy");
+        school.del_student("Timothy");
+
+        // Remove 1 teacher from the school by first name
+        school.del_teacher("Bill");
+
+        // New lists of students and teachers
+        System.out.println("These are the new students");
+        school.show_student();
+        System.out.println("\nThese are the new teachers");
+        school.show_teachers();
     }
 }
